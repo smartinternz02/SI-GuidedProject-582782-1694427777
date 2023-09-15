@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> About US </title>
+    <link rel="stylesheet" href="/Static/Css/about.css">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='Css/about.css') }}">
+
+</head>
+<body>
+
+    <header>
+        
+        <nav>
+            <div class="logo"> Waste Sorting And Recycling</div>
+            <ul class="menu">
+                <li><a href="{{ url_for('home') }}">Home</a></li>
+                <li><a href="{{ url_for('classify') }}">Classify</a></li>
+                <li><a href="{{ url_for('team') }}">Team</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+
+    <main class="main"> 
+
+        <div class="web-title">
+            <h2> Deep learning for waste sorting and recycling</h2>
+<center>
+            <p> This project aims to leverage deep learning techniques to automate and optimize the waste sorting and recycling process. With the increase in the number of industries in the urban area, the disposal of solid waste is really becoming a big problem, and solid waste includes paper, wood, plastic, metal, glass, etc. 
+
+             The common way of managing waste is burning waste and this method can cause air pollution and some hazardous materials from the waste spread into the air which can cause cancer. Hence it is necessary to recycle the waste to protect the environment and human beings’ health, and we need to separate the waste into different components which can be recycled using different ways.
+                
+               The present way of separating waste/garbage is the hand-picking method, whereby someone is employed to separate out the different objects/materials. The person who separates waste is prone to diseases due to the harmful substances in the garbage. This problem can be overcome by automating the garbage classification process.</p></center>
+
+        </div>
+
+        
+    </main>
+
+    <footer></footer>
+</body>
+</html>
